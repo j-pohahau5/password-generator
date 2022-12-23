@@ -1,92 +1,69 @@
-# 03 JavaScript: Password Generator
+# Password Generator
 
-## Your Task
+## Description 
 
-This week’s challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+My motivation for this project was to finish the code full and complete before the dealine which was difficult because I did not start physically coding until the day before the assignment deadline. This wasn't because I was lazy but because I was trying to really break down the thought process of psuedo coding. The reason I built this project or improved it was to make sure the functionality of the website can create the password with five inputs (length of password "8 to 128", upper case letters, lower case letter, numbers, and special characters.) the user selects. The problem that occurred with the code that I was given had no prompt giving the user a choice to select the password length , then a confirm prompt choice to select characters(upper case letters, lower case letters, numbers, and special characters) they'd like it with in their password. After those promtpts there was a password that need to be generated with those inputs. I learned a lot about how to psuedo code with this project and also that in order to cut time at problem solving you have to be psuedocode and the deeper you go with it the less time you spend throwing unusable ideas out there. Reasons I see that my project stands out is that I was able to use Array.from to cut down the time that I was lacking  for not listing out the arrays in a certain way, also that I condensed my code using certain techniques I picked up during tutoring sessions.
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of password special characters](https://www.owasp.org/index.php/Password_special_characters) from the OWASP Foundation.
 
-## User Story
+## Installation
 
-```
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
 
-## Acceptance Criteria
+Steps for Installing:
+1) Click my deplyed link to the web site
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
+2) Click my GitHub repository link 
+    a) Open the files for index.html, style.css, and script.js to copy or download files
 
-## Mock-Up
+3) View these repository files in your code application and view the steps I took. 
 
-The following image shows the web application's appearance and functionality:
 
-![The Password Generator application displays a red button to "Generate Password".](./Assets/03-javascript-challenge-demo.png)
+## Usage 
 
-## Grading Requirements
+Steps for Usage:
+1) First you click the "Generate Password" (big red button)
 
-This challenge is graded based on the following criteria: 
+2) You are left with a prompt asking to to select the length you want you password to be which is anywhere between 8 to 128 nothing less and nothing more
 
-### Technical Acceptance Criteria: 40%
+3) Press "ok" if you you want a Uppercase letter for a character in your password, if not press "cancel"
 
-* Satisfies all of the preceding acceptance criteria plus the following:
+4) Press "ok" if you you want a Lowercase letter for a character in your password, if not press "cancel"
 
-  * The challenge should not produce any errors in the console when you inspect it using Chrome DevTools.
+5) Press "ok" if you you want a Number for a character in your password, if not press "cancel"
 
-### Deployment: 32%
+6) Press "ok" if you you want a Special Character for a character in your password, if not press "cancel"
 
-* Application deployed at live URL.
+7) After you do steps 2 through 6 you should recieve a generated password on the text box above the Big Red Button and you can go ahead and copy that password if you like it
 
-* Application loads with no errors.
+8) If you don't like your password that is generated go ahead and repeat steps 1 through 6 until you see a password that you like
 
-* Application GitHub URL submitted.
 
-* GitHub repository that contains application code.
+## Credits
 
-### Application Quality: 15%
+https://tinyurl.com/BootCampTutorTeam (Ashton Foston) was an incredible tutor
 
-* Application user experience is intuitive and easy to navigate.
+https://www.w3schools.com/ 
 
-* Application user interface style is clean and polished.
 
-* Application resembles the mock-up functionality provided in the challenge instructions.
+## License
 
-### Repository Quality: 13%
+MIT License
 
-* Repository has a unique name.
+Copyright (c) [year] [fullname]
 
-* Repository follows best practices for file structure and naming conventions.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality readme file with description, screenshot, and link to deployed application.
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
-- - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
